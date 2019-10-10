@@ -21,9 +21,9 @@ steps:
     npm install
   displayName: 'Run npm install'
 
-- script: |
-    npm test
-  displayName: 'Run npm test'
+#- script: |
+  #   npm test
+  # displayName: 'Run npm test'
 
 - script: |
     gulp clean
